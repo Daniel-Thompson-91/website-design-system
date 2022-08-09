@@ -1,0 +1,156 @@
+@font-face {
+  font-family: 'Archivo Black', sans-serif;
+  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fjalla+One&family=Roboto:wght@300&display=swap');
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Body */
+body {
+  background-color: #52b7e9;
+}
+
+.colors h2, .fonts h2 {
+  padding-left: 46px;
+  font-family: 'Fjalla One';
+  font-size: 40px;
+}
+
+.section {
+  border: 2px solid #242444;
+  margin-top: 10px;
+  background-color: #dedede;
+  padding-bottom: 20px;
+}
+
+.subsection {
+  display: block;
+}
+
+/* Banner */
+.banner {
+  background-color: #242444;
+  text-align: center;
+  color: #189de4;
+  height: 190px;
+}
+
+.banner h1 {
+  padding: 20px 0 10px 0;
+  margin: 0 auto;
+  border-bottom: 1px solid #189de4;
+  width: 80%;
+  font-family: 'Archivo Black';
+  font-size: 60px;
+}
+
+.banner p {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+  padding: 20px 0 10px 0;
+  font-family: 'Archivo Black';
+}
+
+/* Color theme section */
+.colors li {
+  display: inline-block;
+  height: 180px;
+  width: 180px;
+  line-height: 180px;
+  text-align: center;
+  font-size: 18px;
+  margin: 5px 5px;
+  color: #fff;
+  font-family: 'Roboto';
+}
+
+.colors span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+.colors .color1 {
+  background-color: #189de4;
+}
+
+.colors .color2 {
+  background-color: #52b7e9;
+}
+
+.colors .color3 {
+  background-color: #146ca4;
+}
+
+.colors .color4 {
+  background-color: #46648c;
+}
+
+.colors .color5 {
+  background-color: #242444;
+}
+
+/* Font section */
+.fontbox {
+  display: inline-block;
+  padding-left: 46px;
+}
+
+.fontbox h3 {
+  font-size: 30px;
+}
+
+.fontbox p {
+  font-size: 20px;
+}
+
+.archivo h3, .archivo p {
+  font-family: 'Archivo Black';
+}
+
+.fjalla h3, .fjalla p {
+  font-family: 'Fjalla One';
+}
+
+.roboto h3, .roboto p {
+  font-family: 'Roboto';
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+/* Text styles section */
+.text-styles {
+  padding-left: 46px;
+}
+
+.subsection {
+  width: 600px;
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #52b7e9;
+}
+
+.stylesh1 h1 {
+  font-size: 60px;
+  padding: 0;
+  Margin: 0;
+}
+
+/* footer */
+footer {
+  text-align: right;
+  font-size: 10px;
+  padding-right: 20px;
+}
